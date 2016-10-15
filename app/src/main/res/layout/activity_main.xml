@@ -67,4 +67,14 @@
         android:layout_alignBottom="@+id/jackButton"
         android:layout_toRightOf="@+id/jackButton"
         android:layout_toEndOf="@+id/jackButton" />
+
+    <TextView
+        android:text="Starting Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startButton"
+        android:layout_toRightOf="@+id/startButton"
+        android:layout_toEndOf="@+id/startButton"
+        android:id="@+id/gameStatus"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 </RelativeLayout>
